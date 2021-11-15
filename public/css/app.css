@@ -6359,6 +6359,41 @@ readers do not read off random characters that represent icons */
   }
 }
 
+.footer {
+  background-color: #3676bb;
+}
+
+.footer .textfooter {
+  text-align: center;
+  padding-top: 2%;
+  color: white;
+}
+
+.footer .reseaux {
+  text-align: center;
+  color: #5e91c9;
+}
+
+.footer .reseaux i {
+  margin: 0 1%;
+  font-size: 30px;
+  padding-bottom: 2%;
+}
+
+.copyright {
+  text-align: center;
+  height: 3vw;
+  background-color: #363b47;
+}
+
+.copyright p {
+  color: #44576b;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
