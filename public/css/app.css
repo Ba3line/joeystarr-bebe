@@ -18,17 +18,17 @@
 }
 
 .fa-lg {
-  font-size: 1.33333em;
+  font-size: 1.3333333333em;
   line-height: 0.75em;
-  vertical-align: -.0667em;
+  vertical-align: -0.0667em;
 }
 
 .fa-xs {
-  font-size: .75em;
+  font-size: 0.75em;
 }
 
 .fa-sm {
-  font-size: .875em;
+  font-size: 0.875em;
 }
 
 .fa-1x {
@@ -81,7 +81,6 @@
   margin-left: 2.5em;
   padding-left: 0;
 }
-
 .fa-ul > li {
   position: relative;
 }
@@ -96,8 +95,8 @@
 
 .fa-border {
   border: solid 0.08em #eee;
-  border-radius: .1em;
-  padding: .2em .25em .15em;
+  border-radius: 0.1em;
+  padding: 0.2em 0.25em 0.15em;
 }
 
 .fa-pull-left {
@@ -113,83 +112,60 @@
 .far.fa-pull-left,
 .fal.fa-pull-left,
 .fab.fa-pull-left {
-  margin-right: .3em;
+  margin-right: 0.3em;
 }
-
 .fa.fa-pull-right,
 .fas.fa-pull-right,
 .far.fa-pull-right,
 .fal.fa-pull-right,
 .fab.fa-pull-right {
-  margin-left: .3em;
+  margin-left: 0.3em;
 }
 
 .fa-spin {
-  -webkit-animation: fa-spin 2s infinite linear;
-          animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
 }
 
 .fa-pulse {
-  -webkit-animation: fa-spin 1s infinite steps(8);
-          animation: fa-spin 1s infinite steps(8);
-}
-
-@-webkit-keyframes fa-spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
+  animation: fa-spin 1s infinite steps(8);
 }
 
 @keyframes fa-spin {
   0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
-
 .fa-rotate-90 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .fa-rotate-180 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .fa-rotate-270 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
-  -webkit-transform: rotate(270deg);
-          transform: rotate(270deg);
+  transform: rotate(270deg);
 }
 
 .fa-flip-horizontal {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
-  -webkit-transform: scale(-1, 1);
-          transform: scale(-1, 1);
+  transform: scale(-1, 1);
 }
 
 .fa-flip-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
-  -webkit-transform: scale(1, -1);
-          transform: scale(1, -1);
+  transform: scale(1, -1);
 }
 
 .fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
-  -webkit-transform: scale(-1, -1);
-          transform: scale(-1, -1);
+  transform: scale(-1, -1);
 }
 
 :root .fa-rotate-90,
@@ -198,8 +174,7 @@
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical,
 :root .fa-flip-both {
-  -webkit-filter: none;
-          filter: none;
+  filter: none;
 }
 
 .fa-stack {
@@ -6090,17 +6065,16 @@ readers do not read off random characters that represent icons */
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 @font-face {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-style: normal;
   font-weight: 900;
   font-display: block;
   src: url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot");
   src: url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2") format("woff2"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff") format("woff"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf") format("truetype"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.svg#fontawesome") format("svg");
 }
-
 .fa,
 .fas {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
 
@@ -6109,16 +6083,15 @@ readers do not read off random characters that represent icons */
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 @font-face {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-style: normal;
   font-weight: 400;
   font-display: block;
   src: url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot");
   src: url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2") format("woff2"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff") format("woff"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf") format("truetype"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.svg#fontawesome") format("svg");
 }
-
 .fab {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
@@ -6127,58 +6100,60 @@ readers do not read off random characters that represent icons */
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 @font-face {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-style: normal;
   font-weight: 400;
   font-display: block;
   src: url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.eot");
   src: url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2") format("woff2"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff") format("woff"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf") format("truetype"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.svg#fontawesome") format("svg");
 }
-
 .far {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
 .navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   height: 8vh;
   background-color: #363b47;
   padding-left: 20%;
 }
-
 .navbar .onglet {
   width: 100%;
 }
-
 .navbar .logofati {
   color: white;
 }
-
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .navbar .logofati {
+    display: none;
+  }
+}
 .navbar .ul_onglet {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   list-style-type: none;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   padding-left: 25%;
   padding-top: 1%;
   width: 50%;
 }
-
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .navbar .ul_onglet {
+    padding-left: 0;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .navbar .ul_onglet li {
+    margin: 0 4%;
+  }
+}
 .navbar a {
   text-decoration: none;
   color: white;
   font-size: 70%;
   font-weight: bold;
 }
-
 .navbar li:hover {
   background-color: #3676bb;
   height: 3vw;
@@ -6198,34 +6173,53 @@ readers do not read off random characters that represent icons */
   margin-top: -2.4vh;
   height: 200px;
 }
-
 .titre div {
   width: 70%;
   text-align: center;
   margin: 0 auto;
 }
-
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .titre div {
+    width: 90%;
+  }
+}
 .titre div p {
   padding-top: 5%;
   font-size: 1.8vw;
   margin-top: 0;
 }
-
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .titre div p {
+    font-size: 3.5vw;
+    padding-top: 15%;
+  }
+}
 .titre div .cadre {
   background-color: #26a2cc;
 }
-
 .titre div .bleu {
-  color: #191c1d;
+  color: #26a2cc;
+}
+.titre div .gras {
+  font-weight: bold;
 }
 
 .cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 0 10%;
 }
-
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .cards {
+    margin: auto;
+    display: block;
+    width: 80%;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .cards {
+    width: 90%;
+  }
+}
 .cards div {
   width: 15vw;
   height: 17vw;
@@ -6236,7 +6230,14 @@ readers do not read off random characters that represent icons */
   font-size: 0.8vw;
   padding: 0 1%;
 }
-
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .cards div {
+    width: 80%;
+    height: 60vw;
+    font-size: 3vw;
+    margin: 3vw auto;
+  }
+}
 .cards div .bgfontA {
   width: 60px;
   height: 60px;
@@ -6244,49 +6245,62 @@ readers do not read off random characters that represent icons */
   margin: 5% auto;
   border-radius: 50%;
 }
-
 .cards div i {
   font-size: 1.7vw;
   color: #3676bb;
   padding-top: 25%;
 }
-
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .cards div i {
+    font-size: 7vw;
+  }
+}
 .cards div span {
   color: #26a2cc;
 }
 
 .imagecards {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 3% 11%;
 }
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .imagecards {
     display: block;
     margin: 3% 5%;
   }
 }
-
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .imagecards {
+    flex-direction: column;
+    margin: 3% 5%;
+    align-items: center;
+    font-size: 5px;
+    height: 1534px;
+  }
+}
 .imagecards .work {
   width: 40%;
   font-size: 0.85vw;
   padding-top: 1%;
   padding-right: 4%;
+  font-size: 15px;
 }
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .imagecards .work {
     width: 100%;
     font-size: 1.5vw;
   }
 }
-
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .imagecards .work {
+    width: 80%;
+    padding: 0;
+  }
+}
 .imagecards .work .loremwork {
   opacity: 70%;
+  font-size: 15px;
 }
-
 .imagecards .work button {
   background-color: #26a2cc;
   color: #fff;
@@ -6294,48 +6308,49 @@ readers do not read off random characters that represent icons */
   height: 50px;
   border-radius: 5px;
 }
-
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
   .imagecards .work button {
     height: 30px;
     font-size: 1vw;
   }
 }
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .imagecards .work button {
     height: 30px;
   }
 }
-
 .imagecards .troiscarte {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
+  justify-content: space-between;
   width: 60%;
   margin-left: 5%;
 }
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .imagecards .troiscarte {
     width: 100%;
     margin-left: 0;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
 }
-
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .imagecards .troiscarte {
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 80%;
+  }
+}
 .imagecards .troiscarte div {
   background-color: #38485f;
-  width: 20vw;
-  height: 18vw;
+  width: 33%;
+  height: 300px;
   margin: 0 0.2vw;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   text-align: center;
 }
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .imagecards .troiscarte div {
     margin: 5vw 2vw;
@@ -6343,37 +6358,48 @@ readers do not read off random characters that represent icons */
     width: 25vw;
   }
 }
-
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .imagecards .troiscarte div {
+    width: 100%;
+    height: 350px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .imagecards .troiscarte div p {
+    font-size: 20px;
+    color: white;
+  }
+}
 .imagecards .troiscarte div img {
   width: 100%;
 }
-
 .imagecards .troiscarte div h2 {
   color: #fff;
   font-size: 1.3vw;
 }
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .imagecards .troiscarte div h2 {
     font-size: 1.5vw;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .imagecards .troiscarte div h2 {
+    font-size: 20px;
   }
 }
 
 .footer {
   background-color: #3676bb;
 }
-
 .footer .textfooter {
   text-align: center;
   padding-top: 2%;
   color: white;
 }
-
 .footer .reseaux {
   text-align: center;
   color: #5e91c9;
 }
-
 .footer .reseaux i {
   margin: 0 1%;
   font-size: 30px;
@@ -6385,18 +6411,16 @@ readers do not read off random characters that represent icons */
   height: 3vw;
   background-color: #363b47;
 }
-
 .copyright p {
   color: #44576b;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin: 0;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Mohave', sans-serif;
+  font-family: "Mohave", sans-serif;
 }
+
 /*# sourceMappingURL=app.css.map */
